@@ -9,6 +9,9 @@ Technology Used:
 - TailwindCSS
 - shadcn/ui
 - Clerk User Authentication
+- zustand
+- React Hook Form
+- zod
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

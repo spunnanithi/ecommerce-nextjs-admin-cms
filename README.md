@@ -1,6 +1,14 @@
 # ecommerce-nextjs-cms
 
-E-commerce web application with custom CMS built with Next.js, TailwindCSS and shadcn/ui.
+E-commerce web application with custom CMS built with Next.js, TypeScript, TailwindCSS and shadcn/ui.
+
+Technology Used:
+
+- Next.js
+- TypeScipt
+- TailwindCSS
+- shadcn/ui
+- Clerk User Authentication
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

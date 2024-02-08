@@ -12,6 +12,10 @@ Technology Used:
 - zustand
 - React Hook Form
 - zod
+- Prisma
+  - `npx prisma init` - Initalize prisma that will add prisma directory with schema.prisma file
+  - `npx prisma generate` - Generate Prisma Client in node_modules
+  - `npx prisma db push` - Uses prisma schema to PlanetScale database
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

@@ -2,7 +2,7 @@
 
 E-commerce web application with custom CMS built with Next.js, TypeScript, TailwindCSS and shadcn/ui.
 
-Technology Used:
+## Technology Used:
 
 - Next.js
 - TypeScipt

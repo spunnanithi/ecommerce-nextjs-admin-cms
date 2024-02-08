@@ -15,9 +15,13 @@ Technology Used:
 - zod
 - axios
 - Prisma
-  - `npx prisma init` - Initalize prisma that will add prisma directory with schema.prisma file
-  - `npx prisma generate` - Generate Prisma Client in node_modules
-  - `npx prisma db push` - Uses prisma schema to PlanetScale database
+  - Initialize prisma database
+    - `npx prisma init` - Initalize prisma that will add prisma directory with schema.prisma file
+  - Generate and push schema to database
+    - `npx prisma generate` - Generate Prisma Client in node_modules
+    - `npx prisma db push` - Uses prisma schema to PlanetScale database
+  - Delete database
+    - `npx migrate reset` - Delete entire database; BE CAREFUL!
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

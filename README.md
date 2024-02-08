@@ -8,10 +8,12 @@ Technology Used:
 - TypeScipt
 - TailwindCSS
 - shadcn/ui
+- react-hot-toast
 - Clerk User Authentication
 - zustand
 - React Hook Form
 - zod
+- axios
 - Prisma
   - `npx prisma init` - Initalize prisma that will add prisma directory with schema.prisma file
   - `npx prisma generate` - Generate Prisma Client in node_modules

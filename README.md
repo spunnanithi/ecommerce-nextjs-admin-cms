@@ -22,6 +22,7 @@ E-commerce web application with custom CMS built with Next.js, TypeScript, Tailw
     - `npx prisma db push` - Uses prisma schema to PlanetScale database
   - Delete database
     - `npx migrate reset` - Delete entire database; BE CAREFUL!
+- Cloudinary - Image and Video Upload API
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

@@ -2,6 +2,7 @@
 
 import { ColumnDef } from "@tanstack/react-table";
 import { CellAction } from "./cell-action";
+import { CheckCircle } from "lucide-react";
 
 export type ProductColumn = {
   id: string;
@@ -23,10 +24,14 @@ export const columns: ColumnDef<ProductColumn>[] = [
   {
     accessorKey: "isArchived",
     header: "Archived",
+    cell: ({ row }) =>
+      row.original.isArchived ? <CheckCircle color="green" /> : "",
   },
   {
     accessorKey: "isFeatured",
     header: "Featured",
+    cell: ({ row }) =>
+      row.original.isFeatured ? <CheckCircle color="green" /> : "",
   },
   {
     accessorKey: "price",

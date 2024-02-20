@@ -32,9 +32,9 @@ export default async function DashboardLayout({
   }
 
   return (
-    <>
+    <div className="mx-auto max-w-2xl sm:max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl">
       <Navbar />
       {children}
-    </>
+    </div>
   );
 }

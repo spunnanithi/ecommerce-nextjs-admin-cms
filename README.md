@@ -9,15 +9,13 @@ E-commerce custom Admin Content Management System (CMS) built with Next.js, Type
 - TailwindCSS
 - shadcn/ui
 - react-hot-toast
-- Clerk User Authentication
-- zustand
+- Clerk User Authentication - Handle user authenication/authorization
+- zustand - State management tool
 - React Hook Form
 - zod
-- axios
-- Prisma
+- axios - Data fetching tool
+- Prisma - Open-source ORM tool
 - Cloudinary - Image and Video Upload API
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 

@@ -81,6 +81,7 @@ model Color {
 
 model Product {
   id         String      @id @default(uuid())
+  stock      Int         @default(0)
   storeId    String
   store      Store       @relation("StoreToProduct", fields: [storeId], references: [id])
   categoryId String
